@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Spending_Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Debt_Scene.unity
+    guid: 663dceacb774a0940a46c04a04a681a4
+  - enabled: 1
     path: Assets/Scenes/Setting_Sence.unity
     guid: 69f8e204781415d46916dcfd1d076ddc
   m_configObjects: {}

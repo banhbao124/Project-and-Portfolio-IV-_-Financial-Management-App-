@@ -10,7 +10,7 @@ public class SpendingCalculator : MonoBehaviour
     public TMP_InputField foodDrinksInput;
     public TMP_InputField transportInput;
     public TMP_InputField shoppingInput;
-    public TMP_InputField skincareInput;
+    public TMP_InputField otherInput;
 
     // TextMeshPro Text for displaying the total spending
     public TMP_Text monthTotalText;
@@ -24,10 +24,10 @@ public class SpendingCalculator : MonoBehaviour
         float foodDrinks = float.TryParse(foodDrinksInput.text, out float fd) ? fd : 0;
         float transport = float.TryParse(transportInput.text, out float t) ? t : 0;
         float shopping = float.TryParse(shoppingInput.text, out float s) ? s : 0;
-        float skincare = float.TryParse(skincareInput.text, out float sk) ? sk : 0;
+        float other = float.TryParse(otherInput.text, out float ot) ? ot : 0;
 
         // Calculate the total
-        float total = home + houseGarden + foodDrinks + transport + shopping + skincare;
+        float total = home + houseGarden + foodDrinks + transport + shopping + other;
 
         // Update the total spending display
         monthTotalText.text = total.ToString("F2");

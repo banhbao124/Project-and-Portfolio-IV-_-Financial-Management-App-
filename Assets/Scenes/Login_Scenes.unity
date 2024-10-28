@@ -625,7 +625,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1748173113}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: LoginButton
         m_Mode: 1
         m_Arguments:
@@ -2041,7 +2041,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1748173109}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eda678f8b78879247b099f6cc598fc9d, type: 3}
+  m_Script: {fileID: 11500000, guid: b39024d948da91d46b0e2ff369446c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1757907196

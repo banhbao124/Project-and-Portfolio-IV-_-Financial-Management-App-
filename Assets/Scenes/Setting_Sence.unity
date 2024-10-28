@@ -426,7 +426,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 450287268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 123443f1270211f469d6d98be4b1b745, type: 3}
+  m_Script: {fileID: 11500000, guid: b39024d948da91d46b0e2ff369446c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1394581102
@@ -513,7 +513,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 450287272}
-        m_TargetAssemblyTypeName: QuitManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: QuitButton
         m_Mode: 1
         m_Arguments:
